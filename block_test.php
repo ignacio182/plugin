@@ -24,14 +24,18 @@ class block_test extends block_base {
 
     function get_content() {
         global $CFG;
+        global $USER;
+
         if ($this->content !== null) {
             return $this->content;
         }
 
+
         $this -> content = new stdClass();
         $this -> content -> text = "<li> <a href= {$CFG->wwwroot}/blocks/test/pie_chart.php
                                     target=_blank>" . get_string('students', 'block_test') . "</a> </li>";
-        //$this -> content -> footer = "Footer";
+        //$this -> content -> text .= "<img src= {$CFG->wwwroot}/blocks/test/images/bar_chart.jpg width=\"150\" height=\"100\">";
+        //$this -> content -> footer = "{$USER->firstname}";
         return $this -> content;
     }
 

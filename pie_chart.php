@@ -1,17 +1,28 @@
 <?php
-
     include_once ("JsonProcessor.php");
+    require_once("../../config.php");
+    global $USER, $DB, $COURSE;
 
-    $comando = 'java -jar uploads/generateFile.jar';
-    exec($comando);
+    //$comando = 'java -jar uploads/generateFile.jar';
+    //exec($comando);
+
+    /* Access control */
+    require_login();
+
+    $cContext = context_course::instance($COURSE->id); // global $COURSE
+    $rol = current(get_user_roles($cContext, $USER->id))->shortname;
 
     $jp = new JsonProcessor();
-
-    if(isset($_GET["students"])){
-        $nameStudent = $_GET["students"];
-    }
-    else {
-        $nameStudent = $jp ->getStudents()[0];
+    if ($rol == 'editingteacher') {
+        $act = 'visible';
+        if (isset($_GET["students"])) {
+            $nameStudent = $_GET["students"];
+        } else {
+            $nameStudent = $jp->getStudents()[0];
+        }
+    } elseif ($rol == 'student') {
+        $act = 'hidden';
+        $nameStudent = $USER -> firstname . " " . $USER -> lastname;
     }
 
 ?>
@@ -46,7 +57,7 @@
                 <div class="row">
                     <div class="col-sm-4">
                         <form>
-                            <select style="margin-top:60px" class="form-control custom-select custom-select-lg mb-3" name="students" onchange="this.form.submit()">
+                            <select style="visibility:<?php echo $act; ?>" class="form-control custom-select custom-select-lg mb-3" name="students" onchange="this.form.submit()">
                                 <option value="" selected disabled hidden>Choose here</option>
                             <?php
                                 foreach( $jp -> getStudents() as $name)

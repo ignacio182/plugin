@@ -3,12 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="e90de7b5-c963-4bb9-ad46-90ad16015226" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/block_test.php" beforeDir="false" afterPath="$PROJECT_DIR$/block_test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edit_form.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/external_ref/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/external_ref/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lang/en/block_test.php" beforeDir="false" afterPath="$PROJECT_DIR$/lang/en/block_test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studentsFromFile.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/students_list.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pie_chart.php" beforeDir="false" afterPath="$PROJECT_DIR$/pie_chart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/students.json" beforeDir="false" afterPath="$PROJECT_DIR$/uploads/students.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/version.php" beforeDir="false" afterPath="$PROJECT_DIR$/version.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,70 +22,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pie_chart.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pie_chart.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pie_chart.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="version.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/version.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="access.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/access.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="block_test.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lang/en/block_test.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/external_ref/style.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="students.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uploads/students.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="2961" selection-start-column="2961" selection-end-column="2961" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JsonProcessor.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JsonProcessor.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bar_chart.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bar_chart.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+              <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+              <folding>
+                <element signature="n#style#0;n#select#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,8 +37,11 @@
       <file leaf-file-name="block_test.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/block_test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+            <state relative-caret-position="377">
+              <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+              <folding>
+                <element signature="e#6#57#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,9 +51,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -119,7 +65,6 @@
       <list>
         <option value="$PROJECT_DIR$/db/access.php" />
         <option value="$PROJECT_DIR$/edit_form.php" />
-        <option value="$PROJECT_DIR$/lang/en/block_test.php" />
         <option value="$PROJECT_DIR$/external_ref/bar_chart.js" />
         <option value="$PROJECT_DIR$/studentsFromFile.php" />
         <option value="$PROJECT_DIR$/students_list.php" />
@@ -127,13 +72,14 @@
         <option value="$PROJECT_DIR$/prueba.php" />
         <option value="$PROJECT_DIR$/bar_chart.php" />
         <option value="$PROJECT_DIR$/JsonProcessor.php" />
-        <option value="$PROJECT_DIR$/prueba.html" />
         <option value="$PROJECT_DIR$/external_ref/pie_chart.js" />
-        <option value="$PROJECT_DIR$/block_test.php" />
-        <option value="$PROJECT_DIR$/uploads/students.json" />
+        <option value="$PROJECT_DIR$/lang/en/block_test.php" />
+        <option value="$PROJECT_DIR$/prueba.html" />
         <option value="$PROJECT_DIR$/external_ref/style.css" />
-        <option value="$PROJECT_DIR$/pie_chart.php" />
+        <option value="$PROJECT_DIR$/uploads/students.json" />
         <option value="$PROJECT_DIR$/version.php" />
+        <option value="$PROJECT_DIR$/pie_chart.php" />
+        <option value="$PROJECT_DIR$/block_test.php" />
       </list>
     </option>
   </component>
@@ -147,7 +93,7 @@
     <packageJsonPaths />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -166,6 +112,16 @@
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="external_ref" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
@@ -233,11 +189,13 @@
       <workItem from="1529409522566" duration="3843000" />
       <workItem from="1529438658835" duration="2274000" />
       <workItem from="1529760020607" duration="1536000" />
+      <workItem from="1530204836505" duration="8536000" />
+      <workItem from="1530287900394" duration="9047000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65304000" />
+    <option name="totallyTimeSpent" value="82887000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -271,7 +229,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/students_list.php" />
     <entry file="file://$PROJECT_DIR$/prueba2.php" />
     <entry file="file://$PROJECT_DIR$/prueba.php" />
     <entry file="file://$PROJECT_DIR$/studentsFromFile.php" />
@@ -394,35 +351,10 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/external_ref/pie_chart.js" />
-    <entry file="file://$PROJECT_DIR$/prueba.html" />
-    <entry file="file://$PROJECT_DIR$/external_ref/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/access.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lang/en/block_test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/block_test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bar_chart.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -433,17 +365,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/students.json">
+    <entry file="file://$PROJECT_DIR$/bar_chart.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2961" selection-start-column="2961" selection-end-column="2961" />
+        <state relative-caret-position="34">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pie_chart.php">
+    <entry file="file://$PROJECT_DIR$/lang/en/block_test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        <state relative-caret-position="340">
+          <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/bar_chart.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prueba.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#select#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/external_ref/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -451,6 +403,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploads/students.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="179" selection-start-column="179" selection-end-column="179" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/block_test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+          <folding>
+            <element signature="e#6#57#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pie_chart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#select#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -24,11 +24,11 @@
  */
 
 $string['blockstring'] = 'Block string';
-$string['students'] = 'profiles bar chart';
+$string['students'] = 'Gráfico de habilidades';
 $string['descconfig'] = 'Description of the config section';
 $string['descfoo'] = 'Config description';
 $string['headerconfig'] = 'Config section header';
 $string['labelfoo'] = 'Config label';
 $string['newblock:addinstance'] = 'Add a newblock block';
 $string['newblock:myaddinstance'] = 'Add a newblock block to my moodle';
-$string['pluginname'] = 'Profile Students';
+$string['pluginname'] = 'Perfiles de estudiantes';
