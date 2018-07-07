@@ -4,10 +4,13 @@
 
 		private $students;
 		private $result;
+		private $troubles;
 
 		function __construct(){
 
 			$data = file_get_contents("uploads/students.json");
+			$data2 = file_get_contents("uploads/ejemploIncompleto.json");
+			$this -> troubles = json_decode($data2, true);
 			$this -> students = json_decode($data, true);
 		}
 
@@ -77,6 +80,25 @@
 		        $this -> result[] = $this -> setAbilitie($student);
             }
             return $this -> result;
+        }
+
+
+        function getTroublesByStudent($name){
+            $troublesByStudent = array();
+            foreach ($this -> troubles as $student) {
+                if ($student["name"] == $name) {
+                    foreach ($student as $habilidad => $valorHabilidad) {
+                        if (is_array($valorHabilidad)) {
+                            foreach ($valorHabilidad as $subHabilidad => $valorSubHabilidad) {
+                                if($valorSubHabilidad["porcentaje"] < $valorSubHabilidad["porcentaje_ideal_min"]){
+                                    $troublesByStudent[] = $habilidad . "-" . $subHabilidad;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            return $troublesByStudent;
         }
 	}
 

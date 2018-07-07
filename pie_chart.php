@@ -25,30 +25,21 @@
         $nameStudent = $USER -> firstname . " " . $USER -> lastname;
     }
 
+$troubles = $jp ->getTroublesByStudent($nameStudent);
+
 ?>
 
 <html>
   <head>
-      <script type="text/javascript" src="external_ref/loader.js"></script>
-    <script type="text/javascript">
+      <title> Notificaciones </title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="external_ref/loader.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+      <script src="external_ref/bootstrap-notify.min.js"></script>
+      <script src="external_ref/chartFunctions.js"></script>
 
-        google.charts.load('current', {'packages':['corechart']});
-        google.charts.setOnLoadCallback(drawChart);
-
-      function drawChart() {
-
-          var data = google.visualization.arrayToDataTable(<?php echo json_encode($jp -> getAbilitiesStudent($nameStudent)) ?>);
-          var options = { title: '<?php echo "Perfil de " . $nameStudent; ?>', is3D: true, };
-          var chart = new google.visualization.PieChart(document.getElementById('piechart'));
-          chart.draw(data, options);
-      }
-    </script>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="external_ref/animate.css"/>
       <link rel="stylesheet" type="text/css" href="external_ref/style.css" media="screen" />
   </head>
       <body>
@@ -72,6 +63,29 @@
                 </div>
               </div>
           </div>
+          <script type="text/javascript">
+
+              <?php
+                    if ($rol == 'student'):
+                        for($i = 0; $i < count($troubles); $i++): ?>
+                            var msg = "<?php echo $troubles[$i]?>";
+                            showNotify(msg,'','danger');
+              <?php     endfor;
+                    endif;
+              ?>
+
+              google.charts.load('current', {'packages':['corechart']});
+              google.charts.setOnLoadCallback(drawChart);
+
+              function drawChart() {
+                  var data = google.visualization.arrayToDataTable(<?php echo json_encode($jp -> getAbilitiesStudent($nameStudent)) ?>);
+                  var options = { title: '<?php echo "Perfil de " . $nameStudent; ?>', is3D: true, };
+                  var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+                  chart.draw(data, options);
+              }
+
+
+          </script>
       </body>
         <footer class="footer">
             <div class="container">

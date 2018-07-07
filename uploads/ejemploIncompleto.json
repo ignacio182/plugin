@@ -1,0 +1,56 @@
+[
+	{
+		"name": "pipo_pescador",
+		"id": "1223",
+		"comunicacion": {
+			"informar":
+                      {
+                          "probabilidad": 0.43,
+                          "porcentaje": 8,
+                          "porcentaje_ideal_min": 7,
+                          "porcentaje_ideal_max": 15
+                      },
+			"tarea":
+                      {
+                          "probabilidad": 0.22,
+                          "porcentaje": 6,
+                          "porcentaje_ideal_min": 7,
+                          "porcentaje_ideal_max": 15
+                      },
+			"requerir":
+                      {
+                          "probabilidad": 0.35,
+                          "porcentaje": 8,
+                          "porcentaje_ideal_min": 2,
+                          "porcentaje_ideal_max": 11
+                      }
+          }
+	},
+  {
+    "name": "Herminio Andres Hernandez",
+    "id": "1224",
+    "comunicacion": {
+      "informar":
+      {
+        "probabilidad": 0.43,
+        "porcentaje": 6,
+        "porcentaje_ideal_min": 7,
+        "porcentaje_ideal_max": 15
+      },
+      "tarea":
+      {
+        "probabilidad": 0.22,
+        "porcentaje": 6,
+        "porcentaje_ideal_min": 7,
+        "porcentaje_ideal_max": 15
+      },
+      "requerir":
+      {
+        "probabilidad": 0.35,
+        "porcentaje": 1,
+        "porcentaje_ideal_min": 2,
+        "porcentaje_ideal_max": 11
+      }
+    }
+  }
+]
