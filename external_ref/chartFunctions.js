@@ -52,7 +52,6 @@ function getMessage(msg) {
     reintegracion-mantenimiento:disculparsee,atender:0,1.67
     reintegracion-tarea:finalizar_participacion:0,1.67
     reintegracion-argumentacion:discrepar:0,7*/
-
     var message;
     switch (msg){
         case "comunicacion-informar":

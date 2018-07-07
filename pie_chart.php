@@ -25,7 +25,7 @@
         $nameStudent = $USER -> firstname . " " . $USER -> lastname;
     }
 
-$troubles = $jp ->getTroublesByStudent($nameStudent);
+    $troubles = $jp ->getTroublesByStudent($nameStudent);
 
 ?>
 
@@ -68,8 +68,7 @@ $troubles = $jp ->getTroublesByStudent($nameStudent);
               <?php
                     if ($rol == 'student'):
                         for($i = 0; $i < count($troubles); $i++): ?>
-                            var msg = "<?php echo $troubles[$i]?>";
-                            showNotify(msg,'','danger');
+                                showNotify(getMessage('<?php echo $troubles[$i]?>'),'', 'danger');
               <?php     endfor;
                     endif;
               ?>
